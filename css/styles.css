@@ -24,12 +24,6 @@ body {
   line-height: 1.5;
 }
 
-@media (max-width: 840px) {
-  body {
-    height: 212vh;
-  }
-}
-
 .button {
   padding: 1rem 3.8rem;
   border-radius: 3.4rem;
