@@ -24,12 +24,6 @@ body {
   line-height: 1.5;
 }
 
-@media (max-width: 840px) {
-  body {
-    height: 212vh;
-  }
-}
-
 .button {
   padding: 1rem 3.8rem;
   border-radius: 3.4rem;
@@ -52,7 +46,6 @@ body {
 
 .app {
   background: linear-gradient(to bottom, #7d182f, #100206);
-  height: 100%;
 }
 
 /* Track-bar styles */
@@ -79,6 +72,7 @@ body {
 @media only screen and (max-width: 768px) {
   .player {
     display: block;
+    height: 100%;
   }
 }
 
